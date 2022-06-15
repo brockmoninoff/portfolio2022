@@ -154,8 +154,23 @@ div.space > img {
 .apps img{
   width: 120px;
 }
+.back {
+  padding-bottom: 24px;
+}
 
 
+@media screen and (max-width: 940px) {
+  h1 { font-size: 48px; }
+  h1 + p {
+    margin-left: 50%;
+    width: 50%;
+  }
+  .lede {font-size: 32px;}
+  .apps img {
+    width: 80px;
+  }
+
+}
 
 
 

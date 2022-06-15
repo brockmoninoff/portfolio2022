@@ -136,6 +136,8 @@ h1 + p span {
     flex: 1 1 100%;
     height: 400px;
   }
+  .project:hover { transform: none; }
+  #projects:hover .project:not(:hover) { opacity: 1; }
 }
 
 
