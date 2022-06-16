@@ -35,7 +35,7 @@ h2 {
 }
 h3 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 24px;
   margin: 32px 0 16px;
 }
@@ -50,6 +50,7 @@ p {
 }
 p span {
   font-weight: 700;
+  font-style: italic;
 }
 .lede {
   font-size: 40px;
@@ -110,7 +111,7 @@ img {
   vertical-align: bottom;
 }
 div.space > img {
-  margin-top: 32px;
+  margin-top: 16px;
 }
 
 /* layout */
