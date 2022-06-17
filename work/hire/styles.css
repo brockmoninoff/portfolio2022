@@ -44,5 +44,9 @@ a {
 /* mobile */
 
 @media screen and (max-width: 940px) {
+  h1 + p {
+    margin-left: 0;
+    width: auto;
+  }
 
 }
