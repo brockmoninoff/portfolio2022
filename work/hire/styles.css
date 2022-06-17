@@ -44,6 +44,5 @@ a {
 /* mobile */
 
 @media screen and (max-width: 940px) {
-  .apps { gap: 8px; }
-  .apps img { width: 64px; }
+
 }
