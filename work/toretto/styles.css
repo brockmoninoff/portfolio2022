@@ -7,7 +7,7 @@
   --background-color: #fff;
   --link-color: #36f;
   --text-color: #557;
-  --title-color: #37A8A1;
+  --title-color: #34D399;
 }
 
 /* cascade */
@@ -19,7 +19,7 @@ h1 {
   color: var(--title-color);
 }
 h2 {
-  color: var(--title-color);
+  color: var(--text-color);
 }
 h3 {
   color: var(--text-color);
@@ -28,9 +28,6 @@ h4 {
   color: var(--text-color);
 }
 
-#logoevo {
-  margin-bottom: 32px;
-}
 /* layout */
 
 .apps {
