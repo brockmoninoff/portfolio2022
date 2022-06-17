@@ -147,10 +147,6 @@ div.space > img {
 @media screen and (max-width: 940px) {
   body { padding: 48px 24px; }
   h1 { font-size: 48px; }
-  h1 + p {
-    margin-left: 50%;
-    width: 50%;
-  }
   .lede {font-size: 28px;}
   .space { margin: 104px 0; }
 }
