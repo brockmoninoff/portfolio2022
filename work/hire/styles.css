@@ -1,0 +1,49 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+:root {
+  --background-color: #fff;
+  --link-color: #36f;
+  --text-color: #557;
+  --title-color: #222;
+}
+
+/* cascade */
+
+body {
+  color: var(--text-color);
+}
+h1 {
+  color: var(--title-color);
+}
+h2 {
+  color: var(--title-color);
+}
+h3 {
+  color: var(--text-color);
+}
+h4 {
+  color: var(--text-color);
+}
+i {
+  color: #222;
+}
+a {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* layout */
+
+.link > div {
+  margin-bottom: 16px;
+}
+
+/* mobile */
+
+@media screen and (max-width: 940px) {
+  .apps { gap: 8px; }
+  .apps img { width: 64px; }
+}
